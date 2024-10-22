@@ -15,9 +15,6 @@ use App\Http\Controllers\MyPlaceController;
 |
 */
 
-
-
-
 Route::get(uri: '/', action: 'App\Http\Controllers\Cell\IndexController') -> name(name:'cell.index');
 Route::get(uri: '/create_cell', action: 'App\Http\Controllers\Cell\CreateController') -> name(name:'cell.create');
 Route::post(uri: '/', action: 'App\Http\Controllers\Cell\StoreController') -> name(name:'cell.store');
